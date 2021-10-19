@@ -1,0 +1,29 @@
+.wrapper {
+    /* max-width: 856px; */
+    max-width: 1032px;
+    margin: 0 auto;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    height: 82px;
+    align-items: center;
+}
+
+.menu__list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 33px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color:lightsalmon;
+    transition: color 0.3s ease 0s;
+}

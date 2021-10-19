@@ -1,0 +1,38 @@
+.wrapper {
+    /* max-width: 856px; */
+    max-width: 1032px;
+    margin: 0 auto;
+}
+
+.page {
+    max-width: 856px;
+    margin: 0 auto;  
+}
+
+.hello {
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+}
+.hello__content h1{
+    margin-bottom: 40px;
+    max-width: 506px;
+}
+.hello__content p{
+    max-width: 497px;
+}
+
+.download__btn{
+    display: flex;
+    height: 47px;
+    width: 208px;
+    border-radius: 2px;
+    background: #FF6464;
+    margin-bottom: 70px;
+}
+
+.download__btn a{
+    text-decoration: none;
+    color: #fff;
+    margin: auto auto;
+}
